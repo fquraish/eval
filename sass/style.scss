@@ -1,0 +1,65 @@
+nav{
+    background-color: #00ba49;
+    a{
+        color: white;
+        img{
+            border-radius: 7px;
+        }
+    }
+    .navbar-nav{
+        margin-left: 22%;
+    }
+    .fa-search{
+        font-size: 1.8rem;
+        padding-left: 5px;
+    }
+}
+#heading{
+    background-color: #00ba49;
+    margin-top: 5%;
+    color: white;
+}
+.card-body1{
+    background-color: #383c42;
+    color: white;
+}
+.fa-angry{
+
+    font-size: 2rem;
+    color: red;
+}
+.fa-heart{
+   
+    font-size: 2rem;
+    color: red;
+}
+#lik{
+    margin-left: 30%;
+}
+.card{
+    background-image: url("https://picsum.photos/200/300");
+    background-size: cover;
+    width: 16rem;
+    
+}
+#round{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+
+}
+footer{
+    background-color: #00ba49;
+}
+
+@media screen and (min-width:768px)and(max-width: 1024px){
+    .card{
+        width: 14rem;
+    }
+}
+@media screen and (min-width:360px)and(max-width: 740px){
+    .card{
+        width: 19rem;
+    }
+} 
